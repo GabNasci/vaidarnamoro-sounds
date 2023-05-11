@@ -35,3 +35,16 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++){
         tecla.classList.remove('ativa');
     }
 }
+
+const editarBotao = document.getElementById('editarBotao');
+const divEditar = document.getElementById('divEditar');
+
+editarBotao.addEventListener('click', function() {
+  divEditar.style.display = 'block';
+});
+
+const fecharBotao = document.getElementById('fecharBotao');
+
+fecharBotao.addEventListener('click', function() {
+    divEditar.style.display = 'none';
+  });

@@ -25,48 +25,62 @@
 
     <section class="teclado">
       <div class="coluna col-1">
-            <div class="edicao">
+        <!-------------------------- Botão 7 ------------------------------------------->
+            <div class="botao edicao">
                 <button class="tecla tecla_uepa">7</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+                <button id="editarBotao" href="teste.html" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></button>
             </div>
-            <div>
+            <!--------------------- Tela de Config Botao 7 ------------------------------>
+            <section id="divEditar" class="teclado tela_edicao">
+              <div class="configs">
+                <div>
+                  <h2>Configurações</h2>
+                  <button id="fecharBotao" class="fechar">X</button>
+                </div>
+                  <input class="arquivo_seletor" type="file" id="audioFile" accept="audio/*">
+              </div>
+            </section>
+            <!---------------------------------------------------------------------------->
+            <div class="botao edicao">
                 <button class="tecla tecla_uui">4</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
-            <div>
+            <div class="botao edicao">
                 <button class="tecla tecla_xii">1</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
       </div>
       <div class="coluna col-2">
-            <div>
+            <div class="botao edicao">
                 <button class="tecla tecla_tome">8</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
-            <div>
+            <div class="botao edicao">
                 <button class="tecla tecla_ele-gosta">5</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
-            <div>
+            <div class="botao edicao">
                 <button class="tecla tecla_pare">2</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
       </div>
       <div class="coluna col-3">
-            <div>
+            <div class="botao edicao">
                 <button class="tecla tecla_cavalo">9</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
-            <div>
+            <div class="botao edicao">
                 <button class="tecla tecla_demaais">6</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
-            <div>
+            <div class="botao edicao"''>
                 <button class="tecla tecla_chega">3</button>
                 <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
             </div>
       </div>
     </section>
+
+    
 
 
     <audio src="sounds/uepa-vai-dar-namoro-2022.mp3" id="som_tecla_uepa"></audio>
@@ -79,6 +93,11 @@
     <audio src="sounds/pare.mp3" id="som_tecla_pare"></audio>
     <audio src="sounds/ch3ga.mp3" id="som_tecla_chega"></audio>
     </main>
+
+    <!---- Tela de Edição ---->
+
+
+
 
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/b3b83db5db.js" crossorigin="anonymous"></script>

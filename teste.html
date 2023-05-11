@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Efeitos MIDI</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="images/bateria.png" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <main>
+    
+
+    <section class="teclado">
+        <div class="coluna col-1">
+            <div class="botao edicao">
+                <button class="tecla tecla_uepa">7</button>
+            </div>
+        </div>
+        <div class="configs">
+            <h2>Configurações</h2>
+            <input class="arquivo_seletor" type="file" id="audioFile" accept="audio/*">
+        </div>
+    </section>
+
+    
+
+
+    <audio src="sounds/uepa-vai-dar-namoro-2022.mp3" id="som_tecla_uepa"></audio>
+    <audio src="sounds/cavaalo0.mp3" id="som_tecla_cavalo"></audio>
+    <audio src="sounds/uuuii-vai-dar-namoro-2022.mp3" id="som_tecla_uui"></audio>
+    <audio src="sounds/ele-g0sta.mp3" id="som_tecla_ele-gosta"></audio>
+    <audio src="sounds/tome-vai-dar-namoro-2022.mp3" id="som_tecla_tome"></audio>
+    <audio src="sounds/demaals.mp3" id="som_tecla_demaais"></audio>
+    <audio src="sounds/xiii-vai-dar-namoro-2022.mp3" id="som_tecla_xii"></audio>
+    <audio src="sounds/pare.mp3" id="som_tecla_pare"></audio>
+    <audio src="sounds/ch3ga.mp3" id="som_tecla_chega"></audio>
+    </main>
+
+    <!---- Tela de Edição ---->
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b3b83db5db.js" crossorigin="anonymous"></script>
+  </body>
+</html>
