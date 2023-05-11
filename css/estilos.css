@@ -64,7 +64,6 @@ h1 {
   cursor: pointer;
   font-size: 1em;
   font-weight: bold;
-  text-align: center;
   margin-top: 0.5em;
 }
 
@@ -76,7 +75,7 @@ h1 {
   color: var(--vermelha);
   cursor: pointer;
   height: 120px;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: bold;
   line-height: 120px;
   text-align: center;
@@ -101,4 +100,10 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+/*--------EDIÇÕES---------*/
+
+.edicao {
+  display: flex;
 }
