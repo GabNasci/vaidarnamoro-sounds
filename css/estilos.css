@@ -49,7 +49,7 @@ h1 {
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--branca);
   cursor: pointer;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
@@ -99,6 +99,13 @@ h1 {
 
 /*--------EDIÇÕES---------*/
 
+.tela_edicao {
+  border: 1px solid black;
+}
+
+.col_1-2 {
+  gap: 5.9em;
+}
 
 
 .configs {
@@ -113,13 +120,10 @@ h1 {
   gap: 7em;
 }
 
-.tela_edicao {
-  position: absolute;
-  display: none;
-}
-
 .fechar {
   cursor: pointer;
 }
+
+
 
 

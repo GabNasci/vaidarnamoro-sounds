@@ -23,59 +23,74 @@
     <main>
     <h1>TECLADO</h1>
 
+    <button id="editarBotao" href="teste.html" class="download">Configurar Sons <i class="fa-solid fa-gear" style="color: #ffffff;"></i></button>
+    
     <section class="teclado">
+      <!----------------------------------Coluna 1---------------------------------------->
+
       <div class="coluna col-1">
-        <!-------------------------- Botão 7 ------------------------------------------->
             <div class="botao edicao">
-                <button class="tecla tecla_uepa">7</button>
-                <button id="editarBotao" href="teste.html" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></button>
-            </div>
-            <!--------------------- Tela de Config Botao 7 ------------------------------>
-            <section id="divEditar" class="teclado tela_edicao">
-              <div class="configs">
-                <div>
-                  <h2>Configurações</h2>
-                  <button id="fecharBotao" class="fechar">X</button>
-                </div>
-                  <input class="arquivo_seletor" type="file" id="audioFile" accept="audio/*">
-              </div>
-            </section>
-            <!---------------------------------------------------------------------------->
-            <div class="botao edicao">
-                <button class="tecla tecla_uui">4</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+              <h2 class="nome_botao">Uepa</h2>
+              <button class="tecla tecla_uepa">7</button>
             </div>
             <div class="botao edicao">
-                <button class="tecla tecla_xii">1</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+              <h2 class="nome_botao">Uui</h2>
+              <button class="tecla tecla_uui">4</button>
+            </div>
+            <div class="botao edicao">
+              <h2 class="nome_botao">Xii</h2>
+              <button class="tecla tecla_xii">1</button>
             </div>
       </div>
+      <!----------------------------Segunda Coluna(Config)---------------------------------->
+
+      <div class="coluna col_1-2">
+        <div id="divEditar" class="tela_edicao">
+          <div class="configs">
+              <h2>Configurações</h2>
+              <input class="arquivo_seletor" type="file" id="audioFile" accept="audio/*">
+          </div>
+        </div>
+        <div id="divEditar" class="tela_edicao">
+          <div class="configs">
+              <h2>Configurações</h2>
+              <input class="arquivo_seletor" type="file" id="audioFile" accept="audio/*">
+          </div>
+        </div>
+        <div id="divEditar" class="tela_edicao">
+          <div class="configs">
+              <h2>Configurações</h2>
+              <input class="arquivo_seletor" type="file" id="audioFile" accept="audio/*">
+          </div>
+        </div>
+      </div>
+      <!---------------------------------Coluna 2------------------------------------------->
       <div class="coluna col-2">
             <div class="botao edicao">
-                <button class="tecla tecla_tome">8</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+              <h2 class="nome_botao">Tome</h2>
+              <button class="tecla tecla_tome">8</button>
             </div>
             <div class="botao edicao">
-                <button class="tecla tecla_ele-gosta">5</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+              <h2 class="nome_botao">Ele Gosta</h2>
+              <button class="tecla tecla_ele-gosta">5</button>
             </div>
             <div class="botao edicao">
-                <button class="tecla tecla_pare">2</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+              <h2 class="nome_botao">Pare</h2>
+              <button class="tecla tecla_pare">2</button>
             </div>
       </div>
       <div class="coluna col-3">
             <div class="botao edicao">
-                <button class="tecla tecla_cavalo">9</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+              <h2 class="nome_botao">Cavalo</h2>
+              <button class="tecla tecla_cavalo">9</button>
             </div>
             <div class="botao edicao">
-                <button class="tecla tecla_demaais">6</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+              <h2 class="nome_botao">Demaais</h2>
+              <button class="tecla tecla_demaais">6</button>
             </div>
-            <div class="botao edicao"''>
-                <button class="tecla tecla_chega">3</button>
-                <a href="#" class="download">Editar <i class="fa-solid fa-gear" style="color: #ffffff;"></i></a>
+            <div class="botao edicao">
+              <h2 class="nome_botao">Chega</h2>
+              <button class="tecla tecla_chega">3</button>
             </div>
       </div>
     </section>
